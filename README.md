@@ -3,14 +3,23 @@
 FCM notifications
 
 ## Getting Started
+ - Doc : https://www.dbestech.com/tutorials/flutter-firebase-ios-push-notification
+ - Youtube: https://www.youtube.com/watch?v=u-7ut-phOrA&ab_channel=dbestech
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## ERROR
+ - https://stackoverflow.com/questions/70627695/flutter-firebase-has-not-been-correctly-initialized
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## NB
+ - Apple id account must be business and personal 
+ - Add ios app to Firebase
+ - Add the GoogleService-Info.plist file via the Xcode i.e. Right click Runner > Add files to runner
+ - ![Image](lib/img.png)
+ - Make sure to update the packages... First delete the .symlinks, pods, Podfile.lock then run:
+```
+flutter clean
+flutter pub get
+cd ios
+flutter pod install
+```
+ - 
