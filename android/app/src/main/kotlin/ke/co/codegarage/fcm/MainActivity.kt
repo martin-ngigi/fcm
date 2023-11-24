@@ -1,4 +1,4 @@
-package ke.co.codegarage.fcm
+package com.safiribytes.fcm.fcm
 
 import io.flutter.embedding.android.FlutterActivity
 
